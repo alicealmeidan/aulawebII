@@ -23,6 +23,6 @@ document.querySelector("form").addEventListener("submit", function (event) {
 
     // Salvando novo usuário
     localStorage.setItem(email, JSON.stringify(usuario));
-    alert("Cadastro realizado com sucesso!");
+    alert("Cadastro realizado com sucesso! 123");
     window.location.href = "index.html";
 });
